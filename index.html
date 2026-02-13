@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lírio Mágico 🌸</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Container Principal -->
+    <div class="scene" id="scene">
+        
+        <!-- Contador de Estágios -->
+        <div class="stage-counter" id="stageCounter">
+            <span class="counter-text">Crescimento: <strong>0/10</strong></span>
+        </div>
+
+        <!-- Dica de Interação -->
+        <div class="hint" id="hint">
+            <span>✨ Toque ou clique para crescer ✨</span>
+        </div>
+
+        <!-- Botão Reiniciar -->
+        <button class="reset-btn" id="resetBtn" aria-label="Reiniciar crescimento">
+            🔄 Reiniciar
+        </button>
+
+        <!-- Container da Flor -->
+        <div class="flower-container" id="flowerContainer">
+            
+            <!-- Mensagem Final -->
+            <div class="love-message" id="loveMessage">
+                <p class="message-text">Eu te amo, minha princesa.</p>
+            </div>
+
+            <!-- Flor -->
+            <div class="flower">
+                
+                <!-- Pétalas do Lírio (6 pétalas) -->
+                <div class="petals">
+                    <div class="petal petal-1"></div>
+                    <div class="petal petal-2"></div>
+                    <div class="petal petal-3"></div>
+                    <div class="petal petal-4"></div>
+                    <div class="petal petal-5"></div>
+                    <div class="petal petal-6"></div>
+                </div>
+
+                <!-- Centro da Flor (pistilo e estames) -->
+                <div class="flower-center">
+                    <div class="pistil"></div>
+                    <div class="stamen stamen-1"></div>
+                    <div class="stamen stamen-2"></div>
+                    <div class="stamen stamen-3"></div>
+                    <div class="stamen stamen-4"></div>
+                    <div class="stamen stamen-5"></div>
+                </div>
+
+            </div>
+
+            <!-- Caule -->
+            <div class="stem"></div>
+
+            <!-- Folhas -->
+            <div class="leaves">
+                <div class="leaf leaf-left"></div>
+                <div class="leaf leaf-right"></div>
+            </div>
+
+            <!-- Base/Terra -->
+            <div class="ground"></div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
